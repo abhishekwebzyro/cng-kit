@@ -1,9 +1,8 @@
 import Image, { StaticImageData } from "next/image";
-import KitImg from "@/public/kit1.jpg";
 
 type ProductCardProps = {
   id: number;
-  img: StaticImageData; // this comes from next/image for imported images
+  img: StaticImageData;
   special: string;
   title: string;
   desc: string;
