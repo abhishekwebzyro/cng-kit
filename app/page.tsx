@@ -127,7 +127,7 @@ export default function Home() {
                 NO #1 CNG Kit Centre In Patna
               </h4>
               <p className="text-lg text-slate-400">
-                At Let's Go CNG, we provide expert CNG kit installation with
+                At Let Go CNG, we provide expert CNG kit installation with
                 high-quality components. Whether you need a CNG kit for a car or
                 a premium Lovato CNG kit, we ensure top-notch service at
                 competitive prices.
@@ -178,7 +178,7 @@ export default function Home() {
               Get In Touch With CNG Experts
             </h4>
             <p className="text-slate-600 text-lg text-center">
-              Ready to convert your vehicle to CNG? We'd love to help you save
+              Ready to convert your vehicle to CNG? Wed love to help you save
               money and go green. Reach out to us for any questions, quotes, or
               CNG kit installations!
             </p>
@@ -191,7 +191,7 @@ export default function Home() {
                   Contact Information
                 </h5>
                 <p className="text-slate-600">
-                  We're here to help you convert your vehicle to CNG and save
+                  Were here to help you convert your vehicle to CNG and save
                   money on fuel. Get in touch with us through any of the
                   following methods.
                 </p>
@@ -267,8 +267,8 @@ export default function Home() {
                   Get Free CNG Kit Quote
                 </h5>
                 <p className="text-slate-600">
-                  Fill out the form below and we'll provide you with a free
-                  quote for your vehicle's CNG conversion.
+                  Fill out the form below and well provide you with a free quote
+                  for your vehicles CNG conversion.
                 </p>
               </div>
 
