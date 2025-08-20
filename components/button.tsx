@@ -1,12 +1,14 @@
 type buttonProps = {
-  children: string;
+  children: React.ReactNode;
+  className?: string;
+  type?: "button" | "submit" | "reset";
 };
 
-const Button = ({ children }: buttonProps) => {
+const Button = ({ children, className = "", type = "submit" }: buttonProps) => {
   return (
     <button
-      type="submit"
-      className="px-4 py-2 rounded-xl bg-purple-600 text-lg text-white hover:cursor-pointer w-fit"
+      type={type}
+      className={`px-4 py-2 rounded-xl bg-purple-600 text-lg text-white hover:cursor-pointer w-fit ${className}`}
     >
       {children}
     </button>

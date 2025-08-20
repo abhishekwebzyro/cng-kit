@@ -3,6 +3,7 @@ import Button from "./button";
 import Link from "next/link";
 import { navLinks } from "@/data/navLinks";
 import Logo from "@/public/webzyro-logo.png";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   return (
@@ -23,7 +24,11 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <Button>Get Started</Button>
+        <Button type="button" className="hidden md:block">
+          Get Started
+        </Button>
+        {/* Mobile Menu */}
+        <MobileMenu />
       </nav>
     </header>
   );
