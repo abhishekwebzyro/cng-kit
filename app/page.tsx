@@ -1,5 +1,4 @@
 import {
-  Boxes,
   CircleCheck,
   Clock,
   Facebook,
