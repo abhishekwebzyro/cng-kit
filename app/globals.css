@@ -10,6 +10,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-mont: var(--font-mont);
+}
+
+.font-heading {
+  font-family: var(--font-mont);
 }
 
 @media (prefers-color-scheme: dark) {
